@@ -1,0 +1,34 @@
+@import './title';
+
+html > body {
+  background-color: #666;
+}
+
+// .card-zone {
+
+// }
+
+.card {
+  position: absolute;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  padding: 30px;
+
+  h3 {
+    margin: 0 auto;
+  }
+
+  .btn-close   {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: inherit;
+    outline: none;
+  }
+
+  .btn {
+    margin-top: auto;
+  }
+}
